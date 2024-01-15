@@ -14,9 +14,9 @@ if ffmpeg_spec is None:
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-input_folder = r"/path/to/input_folder"  # Replace with the path to your input folder
-output_folder = r"/path/to/output_folder"  # Replace with the path to your output folder
-log_folder = r"/path/to/logs_folder"  # Subfolder to store log files
+input_folder = r"C:\Users\urrem010\Documents\repos\ffmpeg-custom_test\samples"  # Replace with the path to your input folder
+output_folder = r"C:\Users\urrem010\Documents\repos\ffmpeg-custom_test\samples\fixed"  # Replace with the path to your output folder
+log_folder = r"C:\Users\urrem010\Documents\repos\ffmpeg-custom_test\logs"  # Subfolder to store log files
 
 # Check if logs folder exist
 if not os.path.exists(log_folder):
