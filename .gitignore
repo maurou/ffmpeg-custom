@@ -1,5 +1,6 @@
 *.sh
 *.mov
 *_old.py
+*_test.py
 test*
 log_*.txt
