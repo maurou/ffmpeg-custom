@@ -1,6 +1,6 @@
 *.sh
 *.mov
-*_old.py
-*_test.py
+log*
+*test.py
+*old.py
 test*
-log_*.txt
